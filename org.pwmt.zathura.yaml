@@ -2,7 +2,7 @@
 app-id: org.pwmt.zathura
 
 runtime: org.freedesktop.Platform
-runtime-version: "25.08"
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 
 command: zathura
@@ -91,8 +91,8 @@ modules:
           - /share
         sources:
           - type: archive
-            url: https://poppler.freedesktop.org/poppler-26.02.0.tar.xz
-            sha256: dded8621f7b2f695c91063aab1558691c8418374cd583501e89ed39487e7ab77
+            url: https://poppler.freedesktop.org/poppler-26.05.0.tar.xz
+            sha256: 6fef27ff04f37db43054c86bcdff6128c9fb1f6af4ef3c8b369a7e9abd68d0bb
             x-checker-data:
               type: anitya
               project-id: 3686
@@ -115,8 +115,8 @@ modules:
           - /bin
         sources:
           - type: archive
-            url: http://downloads.sourceforge.net/djvu/djvulibre-3.5.29.tar.gz
-            sha256: d3b4b03ae2bdca8516a36ef6eb27b777f0528c9eda26745d9962824a3fdfeccf
+            url: http://downloads.sourceforge.net/djvu/djvulibre-3.5.30.tar.gz
+            sha256: ee5e457d4cfebe566f94b99e5e3d3cc7f5c79ddb741c2ac2ba2e456f00329644
             x-checker-data:
               type: anitya
               project-id: 10159
