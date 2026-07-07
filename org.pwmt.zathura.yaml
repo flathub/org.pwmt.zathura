@@ -29,8 +29,8 @@ modules:
     buildsystem: meson
     sources:
       - type: archive
-        url: https://pwmt.org/projects/girara/download/girara-2026.02.04.tar.xz
-        sha256: 342eca8108bd05a2275e3eacb18107fa3170fa89a12c77e541a5f111f7bba56d
+        url: https://pwmt.org/projects/girara/download/girara-2026.07.07.tar.xz
+        sha256: 475f154148647d45e0f1324762fe5452094147085fddf2ccef4e9725c335b0c1
         x-checker-data:
           type: anitya
           project-id: 6750
@@ -92,8 +92,8 @@ modules:
           - /share
         sources:
           - type: archive
-            url: https://poppler.freedesktop.org/poppler-26.06.0.tar.xz
-            sha256: 4cb4e5a3dc8cb5eec751c8a23c8ba19f61f96dedc0cd07d2aee6b0c8e2cf6ba4
+            url: https://poppler.freedesktop.org/poppler-26.07.0.tar.xz
+            sha256: 304832f48f8a47fdca90c6b6d1f684e68f37c10c9a0726f345f4ca9df4ca01e2
             x-checker-data:
               type: anitya
               project-id: 3686
