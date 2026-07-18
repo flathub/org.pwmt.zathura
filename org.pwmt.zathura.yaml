@@ -41,10 +41,7 @@ modules:
       - -Dseccomp=disabled
       - -Dlandlock=disabled
       - -Dmanpages=disabled
-    cleanup:
-      - /share/bash-completion
-      - /share/fish
-      - /share/zsh
+      - -Dshell-completions=disabled
     sources:
       - type: archive
         url: https://pwmt.org/projects/zathura/download/zathura-2026.07.18.tar.xz
@@ -53,6 +50,8 @@ modules:
           type: anitya
           project-id: 5298
           url-template: https://pwmt.org/projects/zathura/download/zathura-$version.tar.gz
+      - type: patch
+        path: 0001-Allow-shell-completions-to-be-disabled.patch
   - name: zathura-pdf-poppler
     buildsystem: meson
     sources:
