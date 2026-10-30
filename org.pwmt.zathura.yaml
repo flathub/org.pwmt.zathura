@@ -151,6 +151,7 @@ modules:
             x-checker-data:
               type: anitya
               project-id: 1157
+              url-template: https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs${major}${minor}${patch}/ghostscript-$version.tar.xz
       - name: libspectre
         sources:
           - type: archive
