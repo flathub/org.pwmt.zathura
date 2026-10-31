@@ -54,12 +54,14 @@ modules:
     buildsystem: meson
     sources:
       - type: archive
-        url: https://pwmt.org/projects/zathura-pdf-poppler/download/zathura-pdf-poppler-2026.07.18.tar.xz
+        url: 
+          https://pwmt.org/projects/zathura-pdf-poppler/download/zathura-pdf-poppler-2026.07.18.tar.xz
         sha256: 605d3f2c2e90efbc0434bb7206f013dc8ff99d8b679c6b519e13543777635bf1
         x-checker-data:
           type: anitya
           project-id: 14847
-          url-template: https://pwmt.org/projects/zathura-pdf-poppler/download/zathura-pdf-poppler-$version.tar.xz
+          url-template: 
+            https://pwmt.org/projects/zathura-pdf-poppler/download/zathura-pdf-poppler-$version.tar.xz
     modules:
       - name: popplerdata
         buildsystem: cmake-ninja
@@ -146,12 +148,14 @@ modules:
           - /share/doc/ghostscript
         sources:
           - type: archive
-            url: https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10060/ghostscript-10.06.0.tar.xz
-            sha256: 64352648c2c081c8a9fb1a12dc1965e01ead7c57f58b72d1b54f6ef1cef3c561
+            url: 
+              https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10080/ghostscript-10.08.0.tar.xz
+            sha256: c20492bc8ebb96c87fa2e52a0926e1cda8cde95d66145e018ac713fed5da38cf
             x-checker-data:
               type: anitya
               project-id: 1157
-              url-template: https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs${major}${minor}${patch}/ghostscript-$version.tar.xz
+              url-template: 
+                https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs${major}${minor}${patch}/ghostscript-$version.tar.xz
       - name: libspectre
         sources:
           - type: archive
