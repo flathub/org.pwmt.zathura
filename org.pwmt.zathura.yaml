@@ -48,8 +48,6 @@ modules:
           type: anitya
           project-id: 5298
           url-template: https://pwmt.org/projects/zathura/download/zathura-$version.tar.xz
-      - type: patch
-        path: 0001-Allow-shell-completions-to-be-disabled.patch
   - name: zathura-pdf-poppler
     buildsystem: meson
     sources:
